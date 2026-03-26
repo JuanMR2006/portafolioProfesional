@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida Juan</title>
+    <link rel="stylesheet" href="{% static 'cv_juan/css/style.css' %}">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="tarjeta">
+            <div class="encabezado">
+                <img src="{% static 'cv_juan/img/foto.jpg' %}" alt="Foto de Juan" class="perfil">
+                <h1>Juan José Montezuma</h1>
+                <h2>Desarrollador Web</h2>
+            </div>
+
+            <div class="seccion">
+                <h3>Perfil Profesional</h3>
+                <p>
+                    Estudiante apasionado por el desarrollo web y backend con Django.
+                    Me interesa crear soluciones limpias, funcionales y bien estructuradas.
+                </p>
+            </div>
+
+            <div class="seccion">
+                <h3>Información de Contacto</h3>
+                <p><strong>Email:</strong> juanjomontezuma@gmail.com</p>
+                <p><strong>Teléfono:</strong> 3147562844</p>
+                <p><strong>Ciudad:</strong> Pasto, Colombia</p>
+            </div>
+
+            <div class="seccion">
+                <h3>Habilidades</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>HTML y CSS</li>
+                    <li>Git y GitHub</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
