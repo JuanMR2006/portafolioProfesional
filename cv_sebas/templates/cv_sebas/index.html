@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hoja de Vida Sebas</title>
+    <link rel="stylesheet" href="{% static 'cv_sebas/css/style.css' %}">
+</head>
+<body>
+    <div class="card">
+        <img src="{% static 'cv_sebas/img/foto.jpg' %}" alt="Foto Sebas" class="perfil">
+        <h1>Juan Sebastian Castaño Camues</h1>
+        <h3>Estudiante de Ingeniería Software</h3>
+        <p class="descripcion">
+            Estudiante enfocado en desarrollo backend con Django y creación de interfaces modernas.
+        </p>
+        <div class="info">
+            <p><strong>Email:</strong> juansebastiancc1809@email.com</p>
+            <p><strong>Teléfono:</strong> 3154024788</p>
+        </div>
+    </div>
+</body>
+</html>
