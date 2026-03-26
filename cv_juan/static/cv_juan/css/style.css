@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    max-width: 900px;
+}
+
+.tarjeta {
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+    border: 3px solid #14532d;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: scale(1.02);
+}
+
+.encabezado {
+    background: linear-gradient(135deg, #14532d, #22c55e);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.perfil {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    margin-bottom: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.encabezado h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.encabezado h2 {
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+
+.seccion {
+    padding: 25px 30px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.seccion:last-child {
+    border-bottom: none;
+}
+
+.seccion h3 {
+    color: #14532d;
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.seccion p,
+.seccion li {
+    color: #374151;
+    line-height: 1.6;
+    margin-bottom: 8px;
+}
+
+.seccion ul {
+    padding-left: 20px;
+}
